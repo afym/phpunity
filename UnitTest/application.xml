@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <appdir>{proy}</appdir>
+    <zendframework>{zf2}</zendframework>
+    <configuration>
+        <modulepaths>
+            <path>module</path>
+            <path>vendor</path>
+        </modulepaths>
+        <configpaths>
+            <path>{,*.}{local}.php</path>
+        </configpaths>
+        <modules>
+            <module>Application</module>
+            <module>Unit</module>
+        </modules>
+    </configuration>
+</application>
